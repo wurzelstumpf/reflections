@@ -1,0 +1,70 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    Changes to lines were displayed with a leading + or - and some surrounding lines
+    were also displayed to provid a context for the change.  This made it easy to
+    see which lines were different.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Allow you to quickly revert to previous "working" versions of the file after
+    making a series of changes
+
+    Allow you to quickly find the changes in the new file that have caused the
+    program to stop working
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+    Autosaving will at least save your work in case you forget to commit and
+    lose your data due to power outage or some other catastrophe
+
+    Autosaving may result in to many commits which clutters the history
+
+    Autosaving will likely save the code in a state where it doesn't acutally
+    compile or run making it difficult to see the relationship between the
+    committed changes and the behaviour of the program
+
+    Manually choosing allows the programmer to save versions of the program that
+    actually compile and run and also relate to some logical change such as
+    adding a feature to the program or updating documentation.
+
+    The problem with manually saving a program is that a programmer has to do it
+    during the coding process otherwise the changes are not automatically saved
+
+    Also, in order to make looking back through the history easier to understand
+    the commits should represent a logical unit of change such as adding a
+    feature or renaming a method or function.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Programs often consist of code separated in across several files.  For
+    instance when programming in C it is common to place constants and other
+    declarations in header files (file.h) and code in source files (file.c).
+    This means that a change to a program in order to fix a bug or add a new
+    feature may require edits to several files.  Consequently, a version control
+    system for programmers needs to allow for saving multiple files in a single
+    commit.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that it is possible to quickly revert back to a set of files that run
+    without error makes you more confident when making changes
+
+    Also, knowing that it is easy to compare changes to files at different
+    commit points with git diff would help to identify any problems introduced
+    into the code
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to go back and modify the workspace file bash_profile_course so
+    that files git-completion.bash and git-prompt.sh can be sourced from the
+    directory ~/matthews/edu/udacity/git_and_github but I would like to get a
+    copy of the original files in a git repository
+
+
+
+
