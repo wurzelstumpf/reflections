@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    When a repository is initialised using the "git init" command the .git
+    directory is created in the current working directory
+
+    Existing files are not automatically committed to the repository
+
+    The .git directory will contain all the repository meta-data
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The staging area contains files which have been marked for commit by the
+    "git add" command
+
+    These files are contained within the working directory.
+
+    When the "git commit" command is run they will be added to repository
+    contained in the ".git" directory
+
+    The staging area provides a way of separating temporary files created during
+    the development process from the more permanent project files
+
+    
