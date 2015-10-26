@@ -34,3 +34,50 @@ change?
     changes made to the last commit.
 
     If these form a logical unit then it makes sense to run "git commit"
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    Branches would allow for experimentation with the program while
+    leaving a working copy of the primary code
+
+    Useful also for investigating reported bugs
+
+How do the diagrams help you visualize the branch structure?
+
+    The diagrams show each branch as a singly linked list of commits beginning
+    with the most recent commit for that branch and ending with the initial
+    commit
+
+    Each commit only points to one previous parent commit
+
+    Note that "merge commits" are special in that they have two parents each of
+    which was the "branch tip" of the branches being merged
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    When branches are merged one branch is collapsed into another
+
+    Select the continuing branch with "git checkount [continuing_branch_name]"
+
+    Then merge a branch with "git merge [branch_name]"
+
+    The redundant branch can be deleted with "git branch -d [branch_name]"
+
+    Commits are ordered according to their timestamp in the continuing branch
+
+    The command "git show [commit_id]" can be used to show the differences
+    between a commit and its parent
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+   Automatic merging saves alot of time when changes are made to different files
+   or parts of a file
+
+   Manual merges are required when two developers change the same part of a file
+   and a decision needs to be made in regards as to what should be kept
+   
+
+
