@@ -7,4 +7,11 @@ When would you want to use a remote repository rather than keeping all your work
     In order to collaborate with other people
     
     When working from multiple devices
-    
+
+Why might you want to always pull changes manually rather than having
+Git automatically stay up-to-date with your remote repository?
+
+    Some of the changes made may have been extensive and conflict with
+    your own line of work.  Hence it might make sense to review what
+    has changed since you last ran a "git pull" from the remote before
+    running a "git push"
