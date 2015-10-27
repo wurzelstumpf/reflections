@@ -15,3 +15,19 @@ Git automatically stay up-to-date with your remote repository?
     your own line of work.  Hence it might make sense to review what
     has changed since you last ran a "git pull" from the remote before
     running a "git push"
+
+Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
+
+    Forks occur on GitHub and are generally used to obtain a copy of a
+    repository that you would like to modify but don't have access to
+    as a Collaborator
+
+    A clone is simply a copy of a repository either from a remote
+    source such as GitHub or a local directory
+
+    Branches identify different commit histories within a single
+    repository and are useful for experimenting with changes to the
+    code base
+
+
