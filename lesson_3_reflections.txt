@@ -30,4 +30,31 @@ would you use one instead of another?
     repository and are useful for experimenting with changes to the
     code base
 
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
 
+    If the remote is lost due to some catastrophe then it can be
+    restored from the local copy
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+    Collaboration would probably most likely occur via email and/or
+    phone and/or video link such as skype
+
+    If this involved just one person who was in the same timezone as
+    you then it may be easier however, if several people needed to be
+    aware of the change and they worked in different timezones then
+    collaborating with them may be much harder
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+    If you are collaborating with several people it is better to make
+    changes in a separate branch, push that branch to git hub and set
+    up a pull request so that the other people can review your changes
+    before they are incorporated into the master branch
+
+    If you are working by yourself on a project it may just make sense
+    to update the master branch with changes as you are your own
+    reveiwer in this case
